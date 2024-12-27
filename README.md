@@ -39,7 +39,6 @@ rviz -d ./show.rviz
 
 -------------------------------------------------------------------------------------
 ## Navigation in Surfelgrid
-Run:
 **step1:** start map server and call the service
 You can choose a map（ExplorationUneven/src/planeoct_server/t.launch —— param name = "static_map_path"）
 ```
