@@ -13,6 +13,7 @@ handlemap.sh
 ```
 Move the robot around, and you can see surfelgrid in rviz. The topic is PlaneMap.
 Red voxels are obstacles, and grey surfels are frontiers, which can be used in exploration tasks in uneven terrains.
+
 **step1:** start gazebo and load world
 ```
 source devel/setup.bash; roslaunch scout_gazebo_sim scout_empty_world.launch
