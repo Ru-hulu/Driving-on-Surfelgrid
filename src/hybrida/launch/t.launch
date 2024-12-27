@@ -1,0 +1,205 @@
+
+<launch>
+    <param name="start_x" value="0.0"/>
+    <param name="start_y" value="0.0"/>
+    <param name="start_z" value="-0.62"/>
+    <param name="start_yaw" value="0.00"/>
+    <param name="target_x" value="13"/>
+    <param name="target_y" value="0.0"/>
+    <param name="target_z" value="-0.4"/>
+    <param name="target_yaw" value="1.57"/>
+    <param name="map_path" value="/home/r/Mysoftware/ExplorationUneven/map_data/green_surfel.txt"/> 
+    <param name="result_path"      value="/home/r/Mysoftware/ExplorationUneven/src/tra_result/spiral_result_test.txt" />
+    <node pkg="hybrida" type="hybrid_astar" name="hybrid_astar" output="screen">
+	</node> 
+            
+</launch>
+    <!-- 室外绿化带 -->
+    <!-- <param name="start_x" value="0.0"/>
+    <param name="start_y" value="0.0"/>
+    <param name="start_z" value="-0.62"/>
+    <param name="start_yaw" value="0.00"/>
+    <param name="target_x" value="13"/>
+    <param name="target_y" value="0.0"/>
+    <param name="target_z" value="-0.4"/>
+    <param name="target_yaw" value="1.57"/>
+    <param name="map_path" value="/home/r/Mysoftware/ExplorationUneven/map_data/green_surfel.txt"/> 
+    <param name="result_path"      value="/home/r/Mysoftware/ExplorationUneven/src/tra_result/spiral_result_test.txt" />
+    <node pkg="hybrida" type="hybrid_astar" name="hybrid_astar" output="screen">
+	</node> 
+    -->
+    
+    <!--地下车库场景1 路口导航示意图  -->
+    <!-- <param name="start_x" value="-18"/>
+    <param name="start_y" value="-2"/>
+    <param name="start_z" value="-1.2"/>
+    <param name="start_yaw" value="1.57"/>
+    <param name="target_x" value="-33"/>
+    <param name="target_y" value="9"/>
+    <param name="target_z" value="-1.2"/>
+    <param name="target_yaw" value="3.14"/>
+    <param name="map_path" value="/home/r/Mysoftware/ExplorationUneven/map_data/underground_surfelgrid.txt"/> 
+    <param name="result_path"      value="/home/r/Mysoftware/ExplorationUneven/src/tra_result/spiral_result_test.txt" />
+    <node pkg="hybrida" type="hybrid_astar" name="hybrid_astar" output="screen">
+	</node> 
+    -->
+    
+    <!--地下车库场景1 通道导航示意图  -->
+    <!-- <param name="start_x" value="-25"/>
+    <param name="start_y" value="-13"/>
+    <param name="start_z" value="-1.2"/>
+    <param name="start_yaw" value="3"/>
+    <param name="target_x" value="-43"/>
+    <param name="target_y" value="-16"/>
+    <param name="target_z" value="-1.2"/>
+    <param name="target_yaw" value="3.14"/>
+    <param name="map_path" value="/home/r/Mysoftware/ExplorationUneven/map_data/underground_surfelgrid.txt"/> 
+    <param name="result_path"      value="/home/r/Mysoftware/ExplorationUneven/src/tra_result/spiral_result_test.txt" /> 
+    <node pkg="hybrida" type="hybrid_astar" name="hybrid_astar" output="screen">
+	</node> 
+    -->
+    
+
+    <!--地下斜坡场 通道导航示意图  小-->
+    <!-- <param name="start_x" value="25"/>
+    <param name="start_y" value="15"/>
+    <param name="start_z" value="2.7"/>
+    <param name="start_yaw" value="-0.75"/>
+    <param name="target_x" value="16"/>
+    <param name="target_y" value="4"/>
+    <param name="target_z" value="0.6"/>
+    <param name="target_yaw" value="3.0"/>
+    <param name="map_path" value="/home/r/Mysoftware/ExplorationUneven/map_data/spiral_surfelgrid.txt"/> 
+    <param name="result_path"      value="/home/r/Mysoftware/ExplorationUneven/src/tra_result/spiral_result_test.txt" />
+    <node pkg="hybrida" type="hybrid_astar" name="hybrid_astar" output="screen">
+	</node> 
+    -->
+    
+
+    <!-- 室外小斜坡 -->
+    <!-- <param name="start_x" value="4"/>
+    <param name="start_y" value="1"/>
+    <param name="start_z" value="-0.62"/>
+    <param name="start_yaw" value="0.785"/>
+    <param name="target_x" value="7"/>
+    <param name="target_y" value="13"/>
+    <param name="target_z" value="-1.62"/>
+    <param name="target_yaw" value="0.785"/>
+    <param name="map_path" value="/home/r/Mysoftware/ExplorationUneven/map_data/outdoor_slop_surfel.txt"/> 
+    <param name="result_path"      value="/home/r/Mysoftware/ExplorationUneven/src/tra_result/spiral_result_test.txt" />
+    <node pkg="hybrida" type="hybrid_astar" name="hybrid_astar" output="screen">
+	</node> 
+    -->
+
+
+    <!--地下斜坡场 通道导航示意图  大-->
+    <!-- <param name="start_x" value="3"/>
+    <param name="start_y" value="1"/>
+    <param name="start_z" value="-0.62"/>
+    <param name="start_yaw" value="0.0"/>
+    <param name="target_x" value="20"/>
+    <param name="target_y" value="35"/>
+    <param name="target_z" value="3.4"/>
+    <param name="target_yaw" value="3.14"/>
+    <param name="map_path" value="/home/r/Mysoftware/ExplorationUneven/map_data/spiral_surfelgrid.txt"/> 
+    <param name="result_path"      value="/home/r/Mysoftware/ExplorationUneven/src/tra_result/spiral_result_test.txt" />
+    <node pkg="hybrida" type="hybrid_astar" name="hybrid_astar" output="screen">
+	</node> 
+    -->
+
+
+
+
+
+<!-- level1 --> 
+    <!-- <param name="start_x" value="7.5"/>
+    <param name="start_y" value="-7.5"/>
+    <param name="start_z" value="0.4"/>
+    <param name="start_yaw" value="3.14"/>
+    <param name="target_x" value="-7.5"/>
+    <param name="target_y" value="7.5"/>
+    <param name="target_z" value="4.8"/>
+    <param name="target_yaw" value="1.57"/>
+    <param name="map_path" value="/home/r/Mysoftware/ExplorationUneven/map_data/level1.txt"/>
+	<node pkg="hybrida" type="hybrid_astar" name="hybrid_astar" output="screen">
+	</node> -->
+<!-- level1 --> 
+
+<!-- level2 这条路径有问题,太慢了--> 
+
+    <!-- <param name="start_x" value="7"/>
+    <param name="start_y" value="4"/>
+    <param name="start_z" value="-1.3"/>
+    <param name="start_yaw" value="3.14"/>
+    <param name="target_x" value="7"/>
+    <param name="target_y" value="-8"/>
+    <param name="target_z" value="-0.96"/>
+    <param name="target_yaw" value="0"/>
+    <param name="map_path" value="/home/r/Mysoftware/ExplorationUneven/map_data/level2.txt"/>
+	<node pkg="hybrida" type="hybrid_astar" name="hybrid_astar" output="screen">
+	</node> -->
+
+<!-- level2 --> 
+
+ 
+<!-- level3 --> 
+    <!-- <param name="start_x" value="7.5"/>
+    <param name="start_y" value="2.0"/>
+    <param name="start_z" value="0.96"/>
+    <param name="start_yaw" value="3.14"/>
+
+    <param name="target_x" value="7.5"/>
+    <param name="target_y" value="-7.5"/>
+    <param name="target_z" value="-0.67"/>
+    <param name="target_yaw" value="0.2"/>
+    <param name="map_path" value="/home/r/Mysoftware/ExplorationUneven/map_data/level3.txt"/> 
+    <param name="result_path"      value="/home/r/Mysoftware/ExplorationUneven/src/tra_result/hard_result.txt" />     
+	<node pkg="hybrida" type="hybrid_astar" name="hybrid_astar" output="screen">
+	</node> -->
+<!-- level3 --> 
+
+
+
+<!-- multi_case1 跨层 --> 
+    <!-- <param name="start_x" value="-12"/>
+    <param name="start_y" value="9"/>
+    <param name="start_z" value="0.6"/>
+    <param name="start_yaw" value="0"/>
+    <param name="target_x" value="-9"/>
+    <param name="target_y" value="-12"/>
+    <param name="target_z" value="0"/>
+    <param name="target_yaw" value="-1.57"/>
+    <param name="map_path" value="/home/r/Mysoftware/ExplorationUneven/map_data/multi_case.txt"/>
+	<node pkg="hybrida" type="hybrid_astar" name="hybrid_astar" output="screen">
+	</node> -->
+<!-- multi_case1 跨层 --> 
+
+<!-- 螺旋地图转1圈 -->
+    <!-- <param name="start_x" value="4.55"/>
+    <param name="start_y" value="0.28"/>
+    <param name="start_z" value="0.061512167"/>
+    <param name="start_yaw" value="1.57"/>
+
+    <param name="target_x" value="4.55"/>
+    <param name="target_y" value="0.28"/>
+    <param name="target_z" value="6.344712241"/>
+    <param name="target_yaw" value="1.57"/>
+    <param name="map_path" value="/home/r/Mysoftware/ExplorationUneven/map_data/multi_extrem.txt"/>
+	<node pkg="hybrida" type="hybrid_astar" name="hybrid_astar" output="screen">
+	</node> -->
+<!-- 螺旋地图转1圈 -->
+
+<!-- 螺旋地图转3圈 -->
+    <!-- <param name="start_x" value="4.55"/>
+    <param name="start_y" value="0.78"/>
+    <param name="start_z" value="0.061512167"/>
+    <param name="start_yaw" value="1.57"/>
+
+    <param name="target_x" value="4.55"/>
+    <param name="target_y" value="-1.45"/>
+    <param name="target_z" value="18.534239"/>
+    <param name="target_yaw" value="1.57"/>
+    <param name="map_path" value="/home/r/Mysoftware/ExplorationUneven/map_data/multi_extrem.txt"/>
+	<node pkg="hybrida" type="hybrid_astar" name="hybrid_astar" output="screen">
+	</node> -->
+<!-- 螺旋地图转3圈 -->

@@ -1,0 +1,8 @@
+<launch>
+    <!-- <param name="static_map_path" value="/home/r/Mysoftware/ExplorationUneven/map_data/level3.txt"/> -->
+    <param name="static_map_path" value="/home/r/Mysoftware/ExplorationUneven/map_data/123/multi_extreme_case.txt"/>
+    <!-- <param name="static_map_path" value="/home/r/Mysoftware/ExplorationUneven/map_data/multi_extreme_case.txt"/> -->
+    <!-- <param name="static_map_path" value="/home/r/Mysoftware/ExplorationUneven/ablation/sinterrain.txt"/> -->
+	<node pkg="planeoct_server" type="test1" name="test1" output="screen">
+	</node>
+</launch>
