@@ -28,7 +28,7 @@ source devel/setup.bash; roslaunch planeoct_server t.launch
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
 <video width="320" height="240" controls>
-  <source src="image/github_mapping.mp4" type="video/mp4">
+  <source src="./image/github_mapping.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
